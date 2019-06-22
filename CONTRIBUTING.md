@@ -67,7 +67,6 @@ can be ultimately accepted.
 * Use the imperative mood ("move cursor to..." not "moves cursor to...")
 * Limit the first line to 72 characters or less
 * Reference issues and pull requests liberally after the first line
-* When only changing documentation, include `[ci skip]` in the commit title
 
 ### Changelog Styleguide
 
@@ -77,6 +76,7 @@ There are 3 categories of the records:
 * Features
 * Bugs
 * Documentation
+* Other (optional)
 
 Every record should:
 
@@ -87,6 +87,14 @@ Every record should:
 * Have number of related issue or PR
 * Ended with `, by @author1, @author2`
 
+
 Example:
 
 `* fix error "Unexpected SequenceNumber" #57, by @author1`
+
+### C++ Styleguid
+
+* Just follow the style of the existen classes. All of them have the same format.
+* Use tabs instead of spaces to indent
+
+
